@@ -1,0 +1,38 @@
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeOutput.log
+cmake_install.cmake
+Makefile
+
+# Build output
+/build/
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.d
+
+# Python specific
+*.pyc
+*.pyo
+__pycache__/
+
+# Go specific
+*.exe
+*.test
+*.out
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Test output
+/tests/*
